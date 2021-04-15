@@ -1,0 +1,23 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+ /* Making the asterisks(*) red and larger to signify the importance of required fields. */
+ span.required {
+     font-size: larger;
+     color: red;
+ }
+
+
+ /* Error messages for Longitude and Latitude */
+ span.errorLat {
+     color: red;
+ }
+
+ span.errorLong {
+     color: red;
+ }
+
+ .hidden {
+    display: none;
+ }
